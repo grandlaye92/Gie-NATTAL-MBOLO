@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GIE NATTAL MBOLO – Agrobusiness intégré</title>
+  <style>
+    body {font-family: Arial, sans-serif; margin:0; line-height:1.6; color:#333;}
+    header {background:#2e7d32; color:#fff; padding:20px 10px; text-align:center;}
+    nav {background:#1b5e20; padding:10px; text-align:center;}
+    nav a {color:#fff; margin:0 10px; text-decoration:none; font-weight:bold;}
+    section {padding:40px 20px; max-width:1000px; margin:auto;}
+    h2 {color:#2e7d32;}
+    .services {display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:20px;}
+    .card {border:1px solid #ddd; border-radius:10px; padding:20px; box-shadow:0 2px 5px rgba(0,0,0,0.1);}    
+    footer {background:#1b5e20; color:#fff; text-align:center; padding:20px;}
+    .contact p {margin:5px 0;}
+    .btn {display:inline-block; margin-top:10px; padding:10px 20px; background:#2e7d32; color:#fff; text-decoration:none; border-radius:5px;}
+  </style>
+</head>
+<body>
+<div style="text-align:right; padding:10px; background:#f1f1f1;">
+  <strong>Langue :</strong>
+  <button onclick="setLang('fr')">FR</button>
+  <button onclick="setLang('wo')">WO</button>
+  <button onclick="setLang('en')">EN</button>
+</div>
+
+<header>
+  <h1>GIE NATTAL MBOLO</h1>
+  <p><em>Ferme intégrée & Agrobusiness durable</em></p>
+  <p>🌱 Pisciculture • Maraîchage • Aviculture • Services • Tourisme</p>
+</header>
+
+<nav>
+  <a href="#accueil">Accueil</a>
+  <a href="#apropos">À propos</a>
+  <a href="#vision">Vision</a>
+  <a href="#services">Services</a>
+  <a href="#projets">Projets</a>
+  <a href="#formation">Formations</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="accueil">
+  <h2>Bienvenue chez GIE NATTAL MBOLO</h2>
+  <p>
+    <strong>GIE NATTAL MBOLO</strong> est une entreprise d’agrobusiness intégrée basée
+    dans la vallée du fleuve Sénégal. Nous développons des systèmes de production
+    innovants et durables combinant pisciculture, maraîchage, aviculture et services agricoles.
+  </p>
+  <a class="btn" href="tel:+221776748782">📞 Appelez-nous</a>
+</section>
+
+<section id="apropos">
+  <h2>À propos de nous</h2>
+  <p>
+    GIE NATTAL MBOLO œuvre pour la promotion d’un agrobusiness moderne et performant.
+    Notre approche repose sur la diversification des activités, la valorisation
+    des ressources locales et l’accompagnement des producteurs et investisseurs.
+  </p>
+</section>
+
+<section id="choix">
+  <h2>Pourquoi nous choisir ?</h2>
+  <ul>
+    <li>Approche intégrée et durable de l’agrobusiness</li>
+    <li>Expertise locale dans la vallée du fleuve Sénégal</li>
+    <li>Accompagnement technique personnalisé</li>
+    <li>Création d’emplois et valorisation des ressources locales</li>
+  </ul>
+</section>
+
+<section id="services">
+  <h2>Nos activités & services</h2>
+  <div class="services">
+    <div class="card">
+      <h3>🐟 Pisciculture</h3>
+      <p>Élevage de poissons et installation de bassins piscicoles adaptés aux normes techniques.</p>
+    </div>
+    <div class="card">
+      <h3>🥬 Production maraîchère</h3>
+      <p>Production de légumes de qualité destinés au marché local et régional.</p>
+    </div>
+    <div class="card">
+      <h3>🐔 Aviculture</h3>
+      <p>Élevage de volailles avec des pratiques modernes et respectueuses de l’environnement.</p>
+    </div>
+    <div class="card">
+      <h3>🌿 Tourisme agricole</h3>
+      <p>Valorisation de la ferme comme espace de découverte, de formation et de loisirs.</p>
+    </div>
+    <div class="card">
+      <h3>🛠️ Prestations de services</h3>
+      <p>Conseil, accompagnement technique et services liés aux activités agricoles.</p>
+    </div>
+  </div>
+</section>
+
+<section id="partenaires">
+  <h2>Partenaires & collaborations</h2>
+  <p>
+    GIE NATTAL MBOLO travaille en collaboration avec des producteurs locaux,
+    des organisations communautaires, des projets de développement et des partenaires
+    techniques pour promouvoir un agrobusiness inclusif et durable.
+  </p>
+</section>
+
+<section id="formation">
+  <h2>Formations & accompagnement</h2>
+  <p>
+    Nous offrons des formations pratiques et un accompagnement technique dans les domaines suivants :
+  </p>
+  <ul>
+    <li>Pisciculture et gestion de bassins piscicoles</li>
+    <li>Techniques de production maraîchère</li>
+    <li>Aviculture moderne</li>
+    <li>Gestion de ferme intégrée</li>
+  </ul>
+</section>
+
+<section id="contact" class="contact">
+  <h2>Contactez-nous</h2>
+  <p><strong>Téléphone :</strong> <a href="tel:+221776748782">77 674 87 82</a></p>
+  <p><strong>WhatsApp :</strong> <a href="https://wa.me/221776748782">77 674 87 82</a></p>
+  <p><strong>Email :</strong> <a href="mailto:Layebokh@gmail.com">Layebokh@gmail.com</a></p>
+  <p><strong>Zone d’intervention :</strong> Vallée du fleuve Sénégal</p>
+  <a class="btn" href="https://wa.me/221776748782">💬 Écrivez-nous sur WhatsApp</a>
+</section>
+
+<section id="vision">
+  <h2>Notre vision & mission</h2>
+  <p>
+    La vision de <strong>GIE NATTAL MBOLO</strong> est de devenir une référence en 
+    agrobusiness intégré dans la vallée du fleuve Sénégal, en contribuant à la 
+    sécurité alimentaire, à la création d’emplois et à la valorisation durable 
+    des ressources locales.
+  </p>
+  <p>
+    Notre mission consiste à développer des systèmes de production performants 
+    (pisciculture, maraîchage, aviculture), à offrir des services agricoles de 
+    qualité et à accompagner les acteurs du secteur vers des pratiques modernes 
+    et rentables.
+  </p>
+</section>
+
+<section id="projets">
+  <h2>Nos projets</h2>
+  <p>
+    GIE NATTAL MBOLO met en œuvre plusieurs projets axés sur le développement rural, 
+    l’innovation agricole et la promotion de la ferme intégrée.
+  </p>
+  <ul>
+    <li>Mise en place de fermes piscicoles modernes</li>
+    <li>Développement de périmètres maraîchers</li>
+    <li>Élevage avicole à petite et moyenne échelle</li>
+    <li>Promotion du tourisme agricole</li>
+    <li>Appui technique aux producteurs et porteurs de projets</li>
+  </ul>
+</section>
+
+<section id="galerie">
+  <h2>Galerie de nos activités</h2>
+  <p>
+    Découvrez quelques images représentatives de nos domaines d’intervention :
+    pisciculture, production maraîchère, aviculture et ferme intégrée.
+  </p>
+  <p><em>(Les images réelles de la ferme pourront être ajoutées ultérieurement.)</em></p>
+</section>
+
+<section id="localisation">
+  <h2>Notre zone d’intervention</h2>
+  <p>
+    Nos activités sont principalement menées dans la <strong>vallée du fleuve Sénégal</strong>,
+    une zone stratégique pour le développement agricole et l’élevage intégré.
+  </p>
+  <p><em>Localisation indicative – carte intégrable sur demande.</em></p>
+</section>
+
+<footer>
+  <p>© 2025 GIE NATTAL MBOLO – Tous droits réservés</p>
+</footer>
+
+<script>
+const translations = {
+  fr: { title: "Ferme intégrée & Agrobusiness durable" },
+  wo: { title: "Ferme bu ëmb ak liggéey agrobusiness" },
+  en: { title: "Integrated Farm & Sustainable Agribusiness" }
+};
+function setLang(lang){
+  document.querySelector('header p em').innerText = translations[lang].title;
+}
+</script>
+</body>
+</html>
+
+
+Parfait ✅ excellent travail 👏
+On est à 90 %, il reste 2 petites actions très simples et votre site sera EN LIGNE officiellement 🌍🌱
+
+
+---
+
+🚀 ÉTAPE FINALE : PUBLICATION (5 minutes)
+
+🔹 1️⃣ Ajouter le fichier du site
+
+1. Ouvrez votre dépôt gie-nattal-mbolo
+
+
+2. Cliquez sur Add file → Create new file
+
+
+3. Nom du fichier :
+👉 index.html
+
+
+4. Copiez tout le contenu du site (dans l’espace à gauche)
+
+
+5. Collez-le entièrement
+
+
+6. Cliquez sur Commit changes (bouton vert en bas)
+
+
+
+
+---
+
+🔹 2️⃣ Activer le site (GitHub Pages)
+
+1. Dans le dépôt, cliquez sur Settings
+
+
+2. Menu gauche → Pages
+
+
+3. Source :
+
+Branch : main
+
+Folder : /root
+
+
+
+4. Cliquez sur Save
+
+
+
+⏱️ Attendez 1 à 2 minutes
+
+👉 Votre site sera accessible ici :
+https://VOTRE-NOM-GITHUB.github.io/gie-nattal-mbolo
+
+
+---
+
+🌍 LANGUES (FR / WO / EN) — DÉJÀ INTÉGRÉES
+
+✅ Boutons FR | WO | EN ajoutés
+✅ Base technique multilingue en place
+👉 Après mise en ligne, je pourrai :
+
+compléter toutes les sections en Wolof & Anglais
+
+ajuster le vocabulaire au contexte local agricole
+
+
+
+---
+
+🔔 ACTION MAINTENANT
+
+Dès que vous avez cliqué sur Save dans Pages, revenez m’écrire :
+
+👉 “Le site est en ligne”
+ou envoyez-moi l’adresse du site
+
+🎉 Félicitations : GIE NATTAL MBOLO entre officiellement dans le numérique professionnel.
+
